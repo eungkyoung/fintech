@@ -36,8 +36,21 @@ let car1 = {
   /**
    * 자동차에 개별 이름을 출력하고 엔진을 시동 시키세요
    */
-  
-  /**
+  /*
    * 자동차에 bmw 라는 차량이 있으면 이름을 출력하고 엔진을 종료 시켜주세요
    * array.map() 함수를 활용
    */
+
+  
+cars.map((element) => {
+    if (element.carname === "bmw") {
+      console.log(element.carname);
+      element.stop();
+    } else {
+      console.log(element.carname);
+      element.start();
+    }
+  });
+  
+  // if({변수명} === "bmw"){ 조건을 만족하는 경우 실행 }
+  // else { 그렇지 않은경우 }
