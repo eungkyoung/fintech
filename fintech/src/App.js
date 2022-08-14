@@ -1,15 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
 
-const Welecome = ({ age, username }) => {
-  return (
-    <div>
-      <h2>
-        {age} 세 {username} 님 반갑습니다.
-      </h2>
-    </div>
-  );
-};
+import './App.css';
+import Welecome from './components/Welcome';
 
 function App() {
   return (
