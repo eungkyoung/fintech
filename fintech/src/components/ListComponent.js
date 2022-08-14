@@ -11,7 +11,7 @@ const ListComponent = () => {
     <div>
       {/* <Welcome username={list[0].username} age={list[0].age}></Welcome>
       <Welcome username={list[1].username} age={list[1].age}></Welcome>
-      <Welcome username={list[2].username} age={list[2].age}></Welcome> */}
+      <Welcome username={list[2].username} age={list[2].age}></Welcome> //원래 반복문을 사용하지 않으면*/}
       {list.map((element) => {
         return (
           <Welcome username={element.username} age={element.age}></Welcome>
