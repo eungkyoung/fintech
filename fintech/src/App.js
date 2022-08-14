@@ -23,3 +23,6 @@ function App() {
   );
 }
 export default App;
+
+
+// ctrl + / : 자동 주석 처리
